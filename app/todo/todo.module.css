@@ -1,0 +1,85 @@
+
+
+
+
+.listContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .itemList {
+    list-style-type: none;
+    padding: 0;
+  }
+  .cb{
+    background-color: #fc0000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    
+    justify-content: end;
+    width:100px;
+    
+  }
+
+  .lab{
+margin-left: 20px;
+  }
+
+
+  .ub{
+    background-color: #d0bf00;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    margin-right: 10px;
+    justify-content: end;
+    width:100px;
+  }
+
+  .db{
+    background-color: #fc0000;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    
+    justify-content: end;
+    width:100px;
+  }
+
+  .item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .item div {
+    margin-bottom: 10px;
+  }
+  
+  .item strong {
+    margin-right: 5px;
+  }
+  
+  .item.pending {
+    background-color: #ffeaa7;
+  }
+  
+  .item.completed {
+    background-color: #b2fab4;
+  }
+  
+  .item.in-progress {
+    background-color: #ff7675;
+  }
+  
